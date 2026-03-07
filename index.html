@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Raj - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        // ========================================
+        // EmailJS Configuration
+        // ========================================
+        // IMPORTANT: Replace 'YOUR_PUBLIC_KEY_HERE' with your actual EmailJS public key
+        // Get it from: https://www.emailjs.com/ → Account Settings → API Keys
+        // See EMAIL_SETUP_GUIDE.md for detailed instructions
+        (function(){
+            emailjs.init("GPDNlVlcXaE1l3J2j");
+        })();
+    </script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+    <!-- ==========================================
+         NAVBAR
+         ========================================== -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <!-- Logo Section with Photo -->
+            <div class="logo-section">
+                <img src="rohit.jpeg" alt="Rohit Raj" class="profile-photo">
+                <div class="logo-text">
+                    <span class="welcome-text">Welcome ! to</span>
+                    <span class="name-text" id="typing-text"></span>
+                </div>
+            </div>
+            
+            <!-- Navigation Links -->
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#enquiry">Enquiry Form</a></li>
+            </ul>
+            
+            <!-- Theme Switcher -->
+            <div class="theme-switcher">
+                <button class="theme-btn light active" data-theme="light" title="Light Theme"></button>
+                <button class="theme-btn dark" data-theme="dark" title="Dark Theme"></button>
+                <button class="theme-btn ocean" data-theme="ocean" title="Ocean Theme"></button>
+                <button class="theme-btn sunset" data-theme="sunset" title="Sunset Theme"></button>
+                <button class="theme-btn forest" data-theme="forest" title="Forest Theme"></button>
+            </div>
+            
+            <!-- Mobile Menu Toggle -->
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==========================================
+         HERO SECTION
+         ========================================== -->
+    <section class="hero" id="home">
+        <div class="hero-content fade-in">
+            <img src="raj.png" alt="Rohit Raj" class="hero-photo">
+            <h1>Hi, I'm Rohit Raj</h1>
+            <p>A passionate developer creating innovative solutions and beautiful digital experiences. Let's build something amazing together!</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">
+                    <i class="fas fa-envelope"></i> Get In Touch
+                </a>
+                <a href="#about" class="btn btn-secondary">
+                    <i class="fas fa-user"></i> Know More
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         ABOUT SECTION
+         ========================================== -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>About Me</h2>
+                <p>Get to know more about my journey, skills, and what drives me to create impactful solutions.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image fade-in">
+                    <img src="my.png" alt="Rohit Raj">
+                </div>
+                <div class="about-text fade-in">
+                    <h3>Hello, I'm Rohit Raj!</h3>
+                    <p>Hello, I'm Rohit Raj!</p>
+
+                        <p>I am a passionate developer dedicated to building elegant, efficient, and user-centric digital solutions. My journey in technology is fueled by a constant curiosity to explore emerging tech and a commitment to delivering excellence in every line of code I write.</p>
+                        <p>With expertise spanning Full-Stack Web Development and UI/UX design, I thrive on bridging the gap between innovative ideas and practical, scalable implementations. I believe in writing clean, maintainable code that doesn't just work but makes a real difference.</p>
+                        <p>When I'm not coding, you’ll find me exploring IoT projects, contributing to open-source, or sharing insights with the developer community. I’m always open to new challenges and excited to collaborate on projects that push the boundaries of technology.</p>
+
+                    <div class="skills">
+                        <span class="skill-tag">HTML5 & CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">UI/UX Design</span>
+                        <span class="skill-tag">Responsive Design</span>
+                        <span class="skill-tag">Git & GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         GALLERY SECTION
+         ========================================== -->
+    <section class="section" id="gallery">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Gallery</h2>
+                <p>A showcase of my work, projects, and creative endeavors.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item fade-in">
+                    <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/is_web_development_good_career.jpg" alt="Web Development Project">
+                    <div class="gallery-overlay">
+                        <h4>Web Development</h4>
+                        <p>Modern responsive websites</p>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="https://www.ssl2buy.com/wp-content/uploads/2022/04/mobile-application-security.jpg" alt="Mobile App Project">
+                    <div class="gallery-overlay">
+                        <h4>Mobile Applications</h4>
+                        <p>Cross-platform solutions</p>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR61DqwdWoklnEu9UNSeaK56__Dw852zWdjdA&s" alt="UI/UX Design">
+                    <div class="gallery-overlay">
+                        <h4>UI/UX Design</h4>
+                        <p>User-centered design</p>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop" alt="Code Quality">
+                    <div class="gallery-overlay">
+                        <h4>Clean Code</h4>
+                        <p>Best practices & patterns</p>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=600&h=400&fit=crop" alt="API Development">
+                    <div class="gallery-overlay">
+                        <h4>API Development</h4>
+                        <p>Scalable backend solutions</p>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop" alt="Innovation">
+                    <div class="gallery-overlay">
+                        <h4>Innovation</h4>
+                        <p>Creative problem solving</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         CONTACT SECTION
+         ========================================== -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Contact Me</h2>
+                <p>Have a project in mind? Let's discuss how we can work together.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info fade-in">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>India</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>krishnakumar7257ind@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 XXX XXX XXXX</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Website</h4>
+                            <p>https://kkrishna744542.github.io/Portfolio.github.io/</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="enquiry-form fade-in">
+                    <h3><i class="fas fa-paper-plane"></i> Send a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="project">Project Inquiry</option>
+                                    <option value="collaboration">Collaboration</option>
+                                    <option value="job">Job Opportunity</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span id="btnText">Send Message</span>
+                            <span id="btnLoading" class="loading" style="display: none;"></span>
+                        </button>
+                    </form>
+                    <div class="form-success" id="formSuccess">
+                        <i class="fas fa-check-circle" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+                        <h4>Message Sent Successfully!</h4>
+                        <p>Thank you for reaching out. I'll get back to you soon!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         ENQUIRY FORM SECTION
+         ========================================== -->
+    <section class="section" id="enquiry">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Enquiry Form</h2>
+                <p>Fill out the form below for business inquiries, project quotes, or any questions you may have.</p>
+            </div>
+            <div class="enquiry-form fade-in" style="max-width: 800px; margin: 0 auto;">
+                <h3><i class="fas fa-file-alt"></i> Business Enquiry</h3>
+                <form id="enquiryForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="enq_name">Full Name *</label>
+                            <input type="text" id="enq_name" name="enq_name" placeholder="Your Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="enq_company">Company Name</label>
+                            <input type="text" id="enq_company" name="enq_company" placeholder="Your Company">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="enq_email">Email Address *</label>
+                            <input type="email" id="enq_email" name="enq_email" placeholder="your@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="enq_phone">Phone Number *</label>
+                            <input type="tel" id="enq_phone" name="enq_phone" placeholder="+91 XXXXX XXXXX" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="enq_service">Service Interested In *</label>
+                        <select id="enq_service" name="enq_service" required>
+                            <option value="">Select a service</option>
+                            <option value="web-development">Web Development</option>
+                            <option value="mobile-app">Mobile App Development</option>
+                            <option value="ui-ux">UI/UX Design</option>
+                            <option value="consulting">Technical Consulting</option>
+                            <option value="full-stack">Full Stack Development</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="enq_budget">Estimated Budget</label>
+                        <select id="enq_budget" name="enq_budget">
+                            <option value="">Select budget range</option>
+                            <option value="small">₹10,000 - ₹50,000</option>
+                            <option value="medium">₹50,000 - ₹1,00,000</option>
+                            <option value="large">₹1,00,000 - ₹5,00,000</option>
+                            <option value="enterprise">₹5,00,000+</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="enq_message">Project Details *</label>
+                        <textarea id="enq_message" name="enq_message" placeholder="Describe your project requirements, timeline, and any specific features you need..." required style="min-height: 150px;"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span id="enqBtnText">Submit Enquiry</span>
+                        <span id="enqBtnLoading" class="loading" style="display: none;"></span>
+                    </button>
+                </form>
+                <div class="form-success" id="enqFormSuccess">
+                    <i class="fas fa-check-circle" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+                    <h4>Enquiry Submitted Successfully!</h4>
+                    <p>Thank you for your interest! I will review your requirements and get back to you within 24-48 hours.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         FOOTER
+         ========================================== -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/rohit-raj-744542ind" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.github.com/kkrishna744542" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/rraj_744542" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:krishnakumar7257ind@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p>&copy; 2026 Rohit Raj. All rights reserved. Crafted with <i class="fas fa-heart" style="color: #ef4444;"></i> and passion.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" title="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
