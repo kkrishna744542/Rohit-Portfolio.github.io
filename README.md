@@ -25,6 +25,16 @@ You can view the live project here: [https://kkrishna744542.github.io/Rohit-Port
 * **Font Awesome:** For professional iconography.
 * **Google Fonts:** Using 'Poppins' for a clean, modern aesthetic.
 
+## 🤝 Connect with Me
+
+LinkedIn: linkedin.com/in/rohit-raj-744542ind
+
+GitHub: @kkrishna744542
+
+Instagram: @rraj_744542
+
+Email: krishnakumar7257ind@gmail.com
+
 ## 📁 Project Structure
 
 ```text
@@ -36,11 +46,4 @@ You can view the live project here: [https://kkrishna744542.github.io/Rohit-Port
 └── my.png          # About section image
 
 
-🤝 Connect with Me
-LinkedIn:linkedin.com/in/rohit-raj-744542ind
 
-GitHub: @kkrishna744542
-
-Instagram: @rraj_744542
-
-Email: krishnakumar7257ind@gmail.com
